@@ -1,6 +1,5 @@
 """Базовый класс, описывающий сущность человека, его стандартные физические свойства"""
 
-from models.base_properties import *
 
 class PhysicalProperties(HumanBaseModel):
     """Класс, описывающий физические свойства человека, наследуемый от базового класса HumanBaseModel"""

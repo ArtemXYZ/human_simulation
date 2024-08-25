@@ -1,4 +1,4 @@
-from .human_base import HumanBaseModel
+from human_base import HumanBaseModel
 
 class PhysicalProperties(HumanBaseModel):
     def __init__(self, height=None, weight=None, eye_color=None, hair_color=None, blood_type=None, **kwargs):

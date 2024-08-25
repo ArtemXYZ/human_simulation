@@ -12,42 +12,6 @@
 Порядок описания словесного портрета идёт по принципу «от общего к частному», от организма в целом к отдельным деталям. Максимально подробно описывается голова, отдельно — лицо. Сначала описываются анатомические признаки, затем функциональные, отдельно — особые приметы, последними — дополнительные.
 """
 
-
-class HumanBaseModel:
-    """Базовый класс, описывающий основные обезличенные характеристики человека.
-
-    # Пример использования:
-    human = HumanBaseModel(
-        first_name="Иван",
-        last_name="Иванов",
-        middle_name="Иванович",
-        race="европеоид",
-        nationality="русский",
-        place_of_birth="Москва",
-        date_of_birth="01.01.1990"
-    )
-
-    print(human.describe())
-    """
-
-    def __init__(self, first_name=None, last_name=None,
-                 middle_name=None, race=None, nationality=None,
-                 place_of_birth=None, date_of_birth=None
-                 ):
-        """Инициализирует базовые атрибуты человека"""
-        self.first_name = first_name  # Имя
-        self.last_name = last_name  # Фамилия
-        self.middle_name = middle_name  # Отчество
-        self.race = race  # Раса
-        self.nationality = nationality  # Национальность
-        self.place_of_birth = place_of_birth  # Место рождения
-        self.date_of_birth = date_of_birth  # Дата рождения
-
-    def describe(self):
-        """Возвращает строковое описание основных характеристик человека"""
-
-        return (f"Фамилия: {self.last_name}, Имя: {self.first_name}, Отчество: {self.middle_name}, "
-                f"Раса: {self.race}, Национальность: {self.nationality}, "
-                f"Место рождения: {self.place_of_birth}, Дата рождения: {self.date_of_birth}")
+# an_simulation_synapse
 
 #Human Physical Model

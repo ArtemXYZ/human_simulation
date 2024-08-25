@@ -1,5 +1,5 @@
-from core.physical import PhysicalProperties
-from core.psychological import PsychologicalProfile
+from Test.physical import PhysicalProperties
+from Test.psychological import PsychologicalProfile
 
 class BehaviorModel:
     def __init__(self, physical_properties: PhysicalProperties, psychological_profile: PsychologicalProfile):
