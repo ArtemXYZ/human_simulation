@@ -1,4 +1,4 @@
-from behavior.behavior_model import BehaviorModel
+from behavior_model import BehaviorModel
 
 class SimulationRunner:
     def __init__(self, behavior_model: BehaviorModel):
